@@ -36,6 +36,6 @@ def get_recommendations(product):
     sim_scores = list(enumerate(cos_sim[ind]))
     sim_scores = sorted(sim_scores, key = lambda x:x[1], reverse=True)
     product_indices = [i[0] for i in sim_scores[1:args.number]]
-    return products.iloc[product_indices]
+    print(products.iloc[product_indices])
 
 get_recommendations(args.prod_name)
