@@ -38,4 +38,4 @@ def get_recommendations(product):
     product_indices = [i[0] for i in sim_scores[1:args.number]]
     return products.iloc[product_indices]
 
-get_recomendations(args.prod_name)
+get_recommendations(args.prod_name)
