@@ -39,6 +39,8 @@ The data for this project was downloaded from kaggle.
 4. Run notebooks in order
 5. Execute CLI by running ```recco.py```
 
+Note : *This project was created using python version 3.9.5*
+
 ## Create and activate virtual environment
 
 ```sh
@@ -114,4 +116,6 @@ The CLI uses three arguments:
 ```py
 python recco.py -f ..data/preprocessed_flipkart_data -p "Ladela Bellies" -n3
 ```
-Executing this code returns 3 product recommendations for "Ladela Bellies"
+Executing this code returns 3 product recommendations for "Ladela Bellies".
+
+Thank you for visiting my repository.
