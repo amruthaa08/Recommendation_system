@@ -66,8 +66,7 @@ git clone https://github.com/amruthaa08/Recommendation-system.git
 1. flipkart_data_cleaning.ipynb
 
 ```
-- reading data using pandas
-- removing unwanted columns
+- removing unwanted columns from data
 - removing duplicates
 - adding fill values
 - saving data to clean_flipkart_data
